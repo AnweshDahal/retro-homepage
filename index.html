@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            padding: 3px;
+            background-color: #000000;
+            width: 100%;
+        }
+        .header .nav{
+            display: flex;
+        }
+        .header .nav a{
+            width: 20%;
+            text-align: center;
+            color: #ffffff;
+        }
+        .main{
+            width: 70%;
+            margin: auto;
+        }
+        .main .logo{
+            font-size: 5rem;
+            width: 100%;
+            text-align: center;
+            margin-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+    </style>
+    <title>Retro Home Page</title>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <a href="http://">Youtube</a>
+            <a href="http://">Google</a>
+            <a href="http://">Twitter</a>
+            <a href="http://">Facebook</a>
+            <a href="http://">Reddit</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="logo">
+            GO Search
+        </div>
+        <div class="search">
+            <form action="https://duckduckgo.com/?" method="GET">
+                <input type="text" name="q" placeholder="GO Search">
+                <input type="submit" value="Go Search">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
